@@ -12,7 +12,7 @@
     <div class="site-header__container">
         <div class="site-header__logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="site-header__logo-link">
-                <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/logo.jpeg' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?> Logo" class="site-header__logo-img" width="270" height="60">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpeg" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?> Logo" class="site-header__logo-img" width="270" height="60">
             </a>
         </div>
 

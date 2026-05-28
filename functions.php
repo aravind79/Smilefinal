@@ -67,10 +67,10 @@ function smile_final_scripts() {
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;500;600&display=swap', array(), null );
 
 	// Enqueue main CSS
-	wp_enqueue_style( 'smile-final-main', get_theme_file_uri( 'assets/css/main.css' ), array(), $css_version );
-
-	// Enqueue main JS: no dependencies, load in footer
-	wp_enqueue_script( 'smile-final-main', get_theme_file_uri( 'assets/js/main.js' ), array(), $js_version, true );
+	wp_enqueue_style( 'smile-final-main', get_template_directory_uri() . '/assets/css/main.css', array(), $css_version );
+	
+	// Main JS
+	wp_enqueue_script( 'smile-final-main', get_template_directory_uri() . '/assets/js/main.js', array(), $js_version, true );
 }
 add_action( 'wp_enqueue_scripts', 'smile_final_scripts' );
 

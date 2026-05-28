@@ -6,10 +6,10 @@
             <!-- Top Video Area -->
             <div class="hero__media" aria-hidden="true">
                 <video class="hero__video hero__video--desktop" autoplay muted loop playsinline preload="metadata">
-                    <source src="<?php echo esc_url( get_theme_file_uri( 'assets/videos/smile-glow-up-16x9.mp4' ) ); ?>" type="video/mp4">
+                    <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/smile-glow-up-16x9.mp4" type="video/mp4">
                 </video>
                 <video class="hero__video hero__video--mobile" autoplay muted loop playsinline preload="metadata">
-                    <source src="<?php echo esc_url( get_theme_file_uri( 'assets/videos/smile-glow-up-vertical.mp4' ) ); ?>" type="video/mp4">
+                    <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/smile-glow-up-vertical.mp4" type="video/mp4">
                 </video>
             </div>
             

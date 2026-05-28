@@ -1,7 +1,7 @@
-    <footer class="site-footer">
+<footer class="site-footer">
         <div class="footer-inner">
             <div class="footer-col footer-col-left">
-                <img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/logo.jpeg' ) ); ?>" alt="Lifestyle Smiles" class="footer-logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.jpeg" alt="Lifestyle Smiles" class="footer-logo">
                 <p class="footer-desc">
                     Serving the Brighton community for over 50 years with compassionate, comprehensive dental care.
                 </p>
